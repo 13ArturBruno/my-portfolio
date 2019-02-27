@@ -1,0 +1,34 @@
+.header {
+    height: 130px;
+    position: absolute;
+    background-color: gray;
+    top: 0;
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    display: flex;
+    justify-content: flex-end
+}
+
+.text-nav {
+    font-size: 25px;
+    color: aliceblue
+}
+
+.line {
+    height: 10px;
+    background-color: aqua;
+    border-right: 1px;
+    border-right-width: 1px;
+    border-right-color: azure;
+}
+
+.header div ul {
+    width: auto;
+    display: flex;
+    margin-left: 40%;
+    margin-right: 10%;
+    justify-content: space-between;
+    flex-direction: row;
+    list-style: none;
+}
